@@ -12,13 +12,16 @@ It also incorporates custom **spatial feature engineering** to capture local nei
 * **Robust Evaluation**: 5-fold Stratified Cross-Validation to ensure reliable performance metrics.
 * **Automated Best-Model Selection**: Dynamically picks the best-performing model to predict the full image map.
 
+## Results
+<img width="1059" height="743" alt="hyperSpectral" src="https://github.com/user-attachments/assets/9971f4fd-a43b-4c0a-94c5-366ee7680caa" />
+
 ## Project Structure
 
 ```text
 hyperspectral_project/
 │
 ├── data/                            # Directory for raw datasets
-│   └── HyperspectralTask.mat        # (Must be added locally, not tracked by Git)
+│   └── HyperspectralTask.mat        
 │
 ├── config.py                        # Global variables, hyperparameters, and paths
 ├── data_loader.py                   # Data ingestion and preprocessing
